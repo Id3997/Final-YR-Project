@@ -1,0 +1,7 @@
+first name  -> id="fname" ->name="fname"
+last name ->id="lname" ->name="lname"
+email->id="email" ->name="email"
+UserId->id="userid" ->name="userid"
+phone->id="phone" ->name="phone"
+password->id="password" ->name="password"
+m/f/o
