@@ -21,7 +21,7 @@ body
 .totalbox
 {
     border: 1px solid var(--body-bg-color-1);
-    width: 350px;
+    width: 340px;
     height: 700px;
     margin: auto;
     margin-top: 24px;
@@ -39,6 +39,7 @@ body
     font-weight: var(--font-weight);
     font-family: var(--heading-font-family);
     color: var(--all-font-color);
+    margin-top: 8px;
 }
 .firstname
 {
