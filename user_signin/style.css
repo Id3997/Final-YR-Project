@@ -21,7 +21,7 @@ body
 .totalbox
 {
     border: 1px solid var(--body-bg-color-1);
-    width: 350px;
+    width: 340px;
     height: 500px;
     text-align: center;
     margin: auto;
@@ -40,6 +40,12 @@ body
     font-weight: var(--font-weight);
     font-family: var(--heading-font-family);
     color: var(--all-font-color);
+    margin-top: 8px;
+}
+.userid
+{
+    display: flex;
+    margin-left: 40px;
 }
 
 .userid input
@@ -48,7 +54,7 @@ body
     padding;: var(--all-padding);
     margin-left: 8px;
     margin-bottom: var(--content-margin-bottom);
-    width: 70%;
+    width: 80%;
     border-width: 0;
     border-bottom: 2px solid black;
     font-family: var(--content-font-family);
@@ -62,13 +68,18 @@ body
     transition: var(--transition-timer);
     cursor: pointer;
 }
+.password
+{
+    display: flex;
+    margin-left: 40px;
+}
 .password input
 {
     background-color: white;
     padding;: var(--all-padding);
     margin-left: 8px;
     margin-bottom: var(--content-margin-bottom);
-    width: 70%;
+    width: 81%;
     border-width: 0;
     border-bottom: 2px solid black;
     font-family: var(--content-font-family);
