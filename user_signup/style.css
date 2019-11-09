@@ -1,191 +1,251 @@
+:root {
+    --body-bg-color-1: #eee; 
+    --main-box: white;
+    --all-font-color: rgb(0, 0, 0); 
+    --submit-bg-color: #67E6DC;
+    --content-font-family: 'Merriweather', serif;
+    --heading-font-size: 32px;
+    --content-font-size: 16px;
+    --heading-font-family: 'Source Sans Pro', sans-serif; 
+    --content-margin-bottom: 16px;
+    --font-weight: bold;
+    --all-padding: 8px;
+    --transition-font-size: 20px;
+    --transition-timer: all 0.5s;
+
+}
 body
 {
     background-color: #eee;
 }
 .totalbox
 {
-    border: 1px solid #0000009d;
-    width: 300px;
-    height: 630px;
+    border: 1px solid var(--body-bg-color-1);
+    width: 350px;
+    height: 700px;
     margin: auto;
-    background-color: rgb(255, 255, 255);
-    margin-top: 30px;
+    margin-top: 24px;
+    background-color: var(--main-box);
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-   
 }
 .signup
 {
-    font-size: 50px;
+    font-size: var(--heading-font-size);
     text-align: center;
-    color: black;
-    font-family: bubu;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-@font-face
-{
-    font-family: bubu;
-    src: url(fonts/fonts_ChocolateCoveredRaindrops.woff);
+    color: var(--all-font-color);
+    font-family: var(--heading-font-family);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
+    font-family: var(--heading-font-family);
+    color: var(--all-font-color);
 }
 .firstname
 {
-    font-weight: bold;
-    color: black;
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
     margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 30px;
-    
-    
-
-
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+    margin-bottom: var(--content-margin-bottom);
+}
+.firstname:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .firstname input
 {
-    background-color: white;
+    background-color: var(--main-box);
     border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
-    
+    border-bottom: 2px solid black;
+    width: 85%;
+    padding: var(--all-padding);
+    color: var(--all-font-color);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
+}
+.firstname input:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .lastname
 {
-    font-weight: bold;
-    color: black;
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
     margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+    margin-bottom: var(--content-margin-bottom);
 
 }
+.lastname:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
+}
+
 .lastname input
 {
-    background-color: white;
+    background-color: var(--main-box);
     border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
-    
+    border-bottom: 2px solid black;
+    width: 85%;
+    padding: var(--all-padding);
+    color: var(--all-font-color);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);  
+}
+.lastname input:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .emailid
 {
-    font-weight: bold;
-    color: black;
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
     margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+    margin-bottom: var(--content-margin-bottom);
+}
+.emailid:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .emailid input
 {
-    background-color: white;
+    background-color: var(--main-box);
     border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 85%;
+    padding: var(--all-padding);
+    color: var(--all-font-color);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
     
 }
-.username
+.emailid input:hover
 {
-    font-weight: bold;
-    color: black;
-    margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
+}
 
-}
-.username input
-{
-    background-color: white;
-    border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
-    
-}
 .phone
 {
-    font-weight: bold;
-    color: black;
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
     margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+    margin-bottom: var(--content-margin-bottom);
+}
+.phone:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .phone input
 {
-    background-color: white;
+    background-color: var(--main-box);
     border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
-    
+    border-bottom: 2px solid black;
+    width: 85%;
+    padding: var(--all-padding);
+    color: var(--all-font-color);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
+      
+}
+.phone input:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .password
 {
-    font-weight: bold;
-    color: black;
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
     margin-left: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+    margin-bottom: var(--content-margin-bottom);
+}
+.password:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .password input
 {
-    background-color: white;
+    background-color: var(--main-box);
     border-width: 0;
-    border-bottom: 1px solid black;
-    width: 90%;
-    padding: 5px;
-    color: black;
-    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 85%;
+    padding: var(--all-padding);
+    color: var(--all-font-color);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
     
 }
-.gender
+.password input:hover
 {
-    font-weight: normal;
-    color: black;
-    margin-left: 20px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
-
-
 .submit button
 {
-    color:black;
-    font-family: 'Roboto', sans-serif;
-    background:#67E6DC;
-    width:70%;
-    padding:10px;
-    border-radius:20px;
+    color: var(--submit-font-color);
+    font-family: var(--content-font-family);
+    background: var(--submit-bg-color);
+    width:80%;
+    padding: var(--all-padding);
+    border-radius:24px;
     border-width: 0;
-    margin-left: 47px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-left: 31px;
+    margin-bottom: var(--content-margin-bottom);
     font-weight: bold;
-    
+    font-size: var(--content-font-size); 
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
+}
+.submit button:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+    cursor: pointer;
 }
 .createnew
 {
-    margin-top: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 20px;
+    margin-left: 60px;
+    font-family: var(--content-font-family);
+    font-size: var(--content-font-size);
+    margin-bottom: var(--content-margin-bottom);
+    font-weight: var(--font-weight);
+    color: var(--all-font-color);
 }
+.createnew:hover
+{
+    font-size: var(--transition-font-size);
+    transition: var(--transition-timer);
+}
+
 
